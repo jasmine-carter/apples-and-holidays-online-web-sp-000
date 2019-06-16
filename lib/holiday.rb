@@ -84,7 +84,6 @@ def all_holidays_with_bbq(holiday_hash)
           counter = counter +1
         end
       end
-      bbq_array
     end
   #bbq_array
   end
