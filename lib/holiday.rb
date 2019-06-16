@@ -76,6 +76,7 @@ def all_holidays_with_bbq(holiday_hash)
   counter = 0
   holiday_hash.collect do |season, data|
     data.each do |holiday, supplies|
+      while counter <= 4
       if supplies.include?('BBQ')
     bbq_array << holiday
       counter = counter +1
