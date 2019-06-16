@@ -80,7 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
         if supplies.include?('BBQ')
           bbq_array << holiday
       counter = counter +1
-      else 
+      else
         counter = counter +1
       end
     end
